@@ -8,7 +8,7 @@ public class Bill3 {
 		int bill1 = Integer.parseInt(args[3]);
 		double payment = bill1/3.0;
 		payment = Math.ceil(payment);
-		System.out.println("Dear " + name3 + ", " + name2 + ", " + name1 + ": pay " + payment + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + payment + " Shekels each.");
 	    // Replace this comment with the rest of your code   
 
 		// Dear c, b, and a: pay 80.0 Shekels each
